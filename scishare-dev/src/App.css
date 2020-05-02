@@ -1,5 +1,9 @@
 body {
-  background-color: grey;
+  /* background-color: purple; */
+}
+
+nav {
+  box-shadow: black;
 }
 
 #siteName {
@@ -11,48 +15,48 @@ body {
   height: 2rem;
 }
 
-#feedpost-usericon {
-  margin: 0.5vmin;
-  margin-left: 5px;
-  height: 3rem;
-  border-radius: 100%;
-}
-
-#feedpost-author {
-  background-color: darkgrey;
-  color: white;
-  border-color: darkslategrey;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  margin-top: 10px;
-}
-
 .row {
   background-color: firebrick;
 }
 
 @media (min-width: 100px) {
-  .feedpost-container{
-      max-width: 560px;
+  .feedpost-container {
+    max-width: 560px;
   }
+}
+
+/* #feedpost-usericon {
+  margin: 0.5vmin;
+  margin-left: 5px;
+  height: 3rem;
+  border-radius: 100%;
+} */
+
+#feedpost-author {
+  background-color: darkgrey;
+  color: white;
+  border-color: darkslategrey;
+  /* border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 10px; */
 }
 
 .p-feedpost-text {
   margin: 0.8vmin;
 }
 
-.feedpost-name {
-  /* background-color: indianred; */
+/* .feedpost-name {
+  background-color: indianred;
   margin-top: 0.75rem;
-}
+} */
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
   .feedpost-name {
     margin-top: 1.5vmin;
   }
-}
+} */
 
-#feedpost-box{
+#feedpost-box {
   color: white;
 }
 
@@ -64,6 +68,10 @@ body {
   padding-bottom: 2px;
 }
 
-.btn {
-  /* margin-top: 1px; */
+.feedcards {
+  /* background-color: green; */
+  max-width: 500px;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 0;
 }

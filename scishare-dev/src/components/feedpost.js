@@ -1,27 +1,28 @@
 import React from "react";
 import userIcon from "./user-icon.svg";
+import "./feedpost.css";
 
-class feedpost extends React.Component {
+class feedpost2 extends React.Component {
   render() {
     return (
-      <div className="" id="feedpost-box">
-        <div className="row" id="feedpost-author">
-          <img src={userIcon} id="feedpost-usericon" />
+      <div className="card border-secondary align-middle" id="">
+        <div className="card-header">
+          <h5 className="card-title">
+            <img src={userIcon} id="fdpst-img" /> {this.props.authorName}
+          </h5>
+        </div>
 
-          <h5 className="feedpost-name">{this.props.authorName}</h5>
+        <div className="card-body">
+          <div className="" id="">
+            <p className="card-text">{this.props.text}</p>
+          </div>
         </div>
-        <div className="row" id="feedpost-text">
-          <p className="p-feedpost-text">
-            {/* Proident proident cillum cupidatat qui occaecat id ad consequat. Lorem minim sunt cillum labore. Dolore et eu consectetur aute esse aliqua aliquip labore qui commodo incididunt et. Eiusmod eiusmod consequat cillum ullamco elit do aliquip dolore tempor minim cupidatat anim. Mollit ex commodo occaecat ut officia do do cupidatat dolor. Nisi in excepteur magna elit sit Lorem sit labore consequat proident et duis laborum. Veniam empor reprehenderit reprehenderit aliquip. */}
-            {this.props.text}
-          </p>
-        </div>
-        <div className="row" id="feedpost-btns">
-          <div className="btn-group col" role="group">
-            <button type="button" className="btn btn-outline-primary">
-              Curtir
+        <div className="card-footer" id="feedpost2-btnbox">
+          <div className="btn-group">
+            <button type="button" className="btn">
+            <i className="far fa-thumbs-up" /> Curtir
             </button>
-            <button type="button" className="btn btn-outline-secondary">
+            <button type="button" className="btn">
               Comentar
             </button>
           </div>
@@ -31,4 +32,4 @@ class feedpost extends React.Component {
   }
 }
 
-export default feedpost;
+export default feedpost2;
