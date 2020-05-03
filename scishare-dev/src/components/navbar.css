@@ -1,0 +1,13 @@
+nav {
+    box-shadow: black;
+  }
+  
+  #siteName {
+    font-family: "Cinzel", serif;
+    font-weight: lighter;
+  }
+
+#navbar-usericon {
+    height: 2rem;
+  }
+  

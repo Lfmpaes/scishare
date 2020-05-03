@@ -2,42 +2,7 @@ body {
   /* background-color: purple; */
 }
 
-nav {
-  box-shadow: black;
-}
 
-#siteName {
-  font-family: "Cinzel", serif;
-  font-weight: lighter;
-}
-
-#navbar-usericon {
-  height: 2rem;
-}
-
-.row {
-  background-color: firebrick;
-}
-
-/* #feedpost-usericon {
-  margin: 0.5vmin;
-  margin-left: 5px;
-  height: 3rem;
-  border-radius: 100%;
-} */
-
-#feedpost-author {
-  background-color: darkgrey;
-  color: white;
-  border-color: darkslategrey;
-  /* border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  margin-top: 10px; */
-}
-
-.p-feedpost-text {
-  margin: 0.8vmin;
-}
 
 /* .feedpost-name {
   background-color: indianred;
@@ -50,29 +15,21 @@ nav {
   }
 } */
 
-#feedpost-box {
+/* #feedpost-box {
   color: white;
-}
+} */
 
-#feedpost-btns {
+/* #feedpost-btns {
   background-color: ghostwhite;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   padding-top: 2px;
   padding-bottom: 2px;
-}
+} */
 
-.feedcards {
-  /* background-color: green; */
+/* .register-form {
   max-width: 500px;
   margin: 0 auto;
   float: none;
   margin-bottom: 0;
-}
-
-.register-form {
-  max-width: 500px;
-  margin: 0 auto;
-  /* float: none; */
-  /* margin-bottom: 0; */
-}
+} */

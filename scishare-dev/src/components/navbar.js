@@ -6,7 +6,7 @@ class navbar extends React.Component {
   // state = {  }
   render() {
     return (
-      <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+      <nav className="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
         <a className="navbar-brand align-middle" href="#" id="siteName">
           ScienceShare
         </a>

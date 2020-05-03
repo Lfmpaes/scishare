@@ -5,13 +5,13 @@ import "./feedpost.css";
 class feedpost2 extends React.Component {
   render() {
     return (
-      <div className="card border-secondary align-middle" id="">
+      <div className="card feedpost-card border-secondary mx-auto" id="">
         <div className="card-header">
-          <h5 className="card-title">
-            <img src={userIcon} id="fdpst-img" />{" "}
+          <h5 className="card-title feedpost-card-title">
+            <img src={userIcon} id="feedpost-img" />{" "}
             <span className="author-name">{this.props.authorName}</span>
           </h5>
-          <a href="#" className="text-muted post-date">
+          <a href="#" className="text-muted feedpost-date">
             02/05/2020
           </a>
         </div>
@@ -23,8 +23,8 @@ class feedpost2 extends React.Component {
           </li>
         </ul>
 
-        <div className="card-footer" id="feedpost2-btnbox">
-          <div className="btn-group">
+        <div className="card-footer" id="feedpost-btnbox">
+          <div className="btn-group feedpost-btn-group">
             <button type="button" className="btn btn-outline-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
               <i className="far fa-thumbs-up" /> Curtir
             </button>

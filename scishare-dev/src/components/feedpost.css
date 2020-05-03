@@ -1,4 +1,11 @@
-#fdpst-img {
+.feedpost-card {
+  max-width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.05), 0 15px 30px rgba(0, 0, 0, 0.22);
+}
+
+#feedpost-img {
   max-width: 45px;
   margin-left: -10px;
   margin-top: -5px;
@@ -7,36 +14,23 @@
   border-radius: 100%;
 }
 
-table {
-  height: 100px;
-  background-color: white;
-  width: 60%;
-  max-width: 490px;
-}
-
-.card {
-  max-width: 500px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.card-title {
+.feedpost-card-title {
   margin-bottom: -10px;
 }
 
-.btn-group {
+.feedpost-btn-group {
   margin: -5px;
   width: 100%;
   margin-top: -15px;
   margin-bottom: -10px;
 }
 
-.post-date {
+.feedpost-date {
   margin-left: 48px;
   font-size: 0.9rem;
 }
 
 .feedpost-reaction {
-  display: inline;
+  /* display: inline; */
   /* background-color: red; */
 }
