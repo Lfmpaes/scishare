@@ -1,5 +1,6 @@
 import React from "react";
 import userIcon from "./user-icon.svg";
+import "./navbar.css";
 
 class navbar extends React.Component {
   // state = {  }

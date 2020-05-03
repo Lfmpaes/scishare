@@ -19,12 +19,6 @@ nav {
   background-color: firebrick;
 }
 
-@media (min-width: 100px) {
-  .feedpost-container {
-    max-width: 560px;
-  }
-}
-
 /* #feedpost-usericon {
   margin: 0.5vmin;
   margin-left: 5px;
@@ -74,4 +68,11 @@ nav {
   margin: 0 auto;
   float: none;
   margin-bottom: 0;
+}
+
+.register-form {
+  max-width: 500px;
+  margin: 0 auto;
+  /* float: none; */
+  /* margin-bottom: 0; */
 }
